@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Data Display</title>
+	<meta charset="UTF-8">
+	<script type="text/javascript" src="/eel.js"></script>
+	<script type="text/javascript">
+		document.title = "Data Display";
+
+		eel.expose(writeToHTML);
+		function writeToHTML(table){
+			document.body.innerHTML += table;
+		}
+	</script>
+	<link type="text/css" rel="stylesheet" href="/css/style.css"></style>
+</head>
+<body>
+	<h1>Students</h1>
+</body>
+</html>
