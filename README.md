@@ -34,3 +34,6 @@ Automated attendance system using radio-frequency identification.
 # Test_Sql_to_Excel.py
   Not yet working.
   Export MySql attendance records and classlist to excel.
+  
+# Test_Create_Excel.py
+  Create excel file from database classlist + attendance.
